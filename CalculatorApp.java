@@ -13,6 +13,11 @@ public class CalculatorApp extends Application {
     public void start(Stage primaryStage) {
 
         // Step 1: Create TextFields for input
+        TextField num1Field = new TextField();
+        num1Field.setPromptText("Enter first number");
+
+        TextField num2Field = new TextField();
+        num2Field.setPromptText("Enter second number");
 
         // Step 2: Create Buttons for operations
 
