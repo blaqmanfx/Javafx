@@ -26,6 +26,7 @@ public class CalculatorApp extends Application {
         Button divideButton = new Button("/");
 
         // Step 3: Create Label for result
+        Label resultLabel = new Label("Result will be shown here");
 
         // Step 4: HBox for buttons
 
