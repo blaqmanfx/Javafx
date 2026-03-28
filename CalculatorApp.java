@@ -20,6 +20,10 @@ public class CalculatorApp extends Application {
         num2Field.setPromptText("Enter second number");
 
         // Step 2: Create Buttons for operations
+        Button addButton = new Button("+");
+        Button subtractButton = new Button("-");
+        Button multiplyButton = new Button("*");
+        Button divideButton = new Button("/");
 
         // Step 3: Create Label for result
 
