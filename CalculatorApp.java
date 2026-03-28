@@ -78,6 +78,10 @@ public class CalculatorApp extends Application {
         });
 
         // Step 7: Create scene and show stage
+        Scene scene = new Scene(mainLayout, 400, 300);
+        primaryStage.setTitle("Simple Calculator");
+        primaryStage.setScene(scene);
+        primaryStage.show();
 
     }
 
