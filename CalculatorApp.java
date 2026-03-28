@@ -29,6 +29,7 @@ public class CalculatorApp extends Application {
         Label resultLabel = new Label("Result will be shown here");
 
         // Step 4: HBox for buttons
+        HBox buttonBox = new HBox(10, addButton, subtractButton, multiplyButton, divideButton);
 
         // Step 5: VBox main layout
 
