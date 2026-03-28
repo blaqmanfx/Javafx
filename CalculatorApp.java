@@ -32,6 +32,8 @@ public class CalculatorApp extends Application {
         HBox buttonBox = new HBox(10, addButton, subtractButton, multiplyButton, divideButton);
 
         // Step 5: VBox main layout
+        VBox mainLayout = new VBox(10, num1Field, num2Field, buttonBox, resultLabel);
+        layout.setstyle("-fx-padding: 20;");
 
         // Step 6: Event handling for buttons
 
