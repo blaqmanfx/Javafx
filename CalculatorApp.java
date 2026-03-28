@@ -33,7 +33,7 @@ public class CalculatorApp extends Application {
 
         // Step 5: VBox main layout
         VBox mainLayout = new VBox(10, num1Field, num2Field, buttonBox, resultLabel);
-        layout.setstyle("-fx-padding: 20;");
+        mainLayout.setStyle("-fx-padding: 20;");
 
         // Step 6: Event handling for buttons
         addButton.setOnAction(e -> {
@@ -89,14 +89,3 @@ public class CalculatorApp extends Application {
         launch(args);
     }
 }
-
-// TASKS TO COMPLETE(SUBMIT SCREENSHOTS FOR ALL TASKS)
-
-// TODO:Enter numbers in the two TextFields.
-
-// TODO:Click any operation button to see the result in the Label.
-
-// TODO:Test for division by zero.
-
-// TODO:Try entering invalid input (letters) and observe program behavior
-// (optional: you can handle exceptions for invalid input).
